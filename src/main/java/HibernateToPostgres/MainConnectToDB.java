@@ -39,8 +39,8 @@ public class MainConnectToDB {
     public static void main(String[] args) {
 
 //        new JdbcToPostgres();
-        new JdbcToPostgresAndProperties();
-//        new JpaToPostgres();
+//        new JdbcToPostgresAndProperties();
+        new JpaToPostgres();
 
     }
 }

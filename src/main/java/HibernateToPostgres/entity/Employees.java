@@ -1,25 +1,25 @@
 package HibernateToPostgres.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
-public class Employee {
+@Table(name = "Employees")
+public class Employees {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private String surname;
     private String department;
     private double salary;
 
-    public Employee() {}
+    public Employees() {}
 
-    public Employee(Long id, String name, String department, double salary) {
+    public Employees(Long id, String name, String surname, String department, double salary) {
         this.id = id;
         this.name = name;
+        this.surname = surname;
         this.department = department;
         this.salary = salary;
     }
@@ -40,6 +40,14 @@ public class Employee {
         this.name = name;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
     public String getDepartment() {
         return department;
     }
@@ -54,5 +62,16 @@ public class Employee {
 
     public void setSalary(double salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Employees{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", department='" + department + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 }

@@ -45,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Papa/IdeaProjects/HibernateTest/src/main/java/HibernateToPostgres/jdbcAndProperties",
+    "last_opened_file_path": "C:/Users/Papa/IdeaProjects/HibernateTest/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,10 +68,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\resources" />
       <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\java\HibernateToPostgres\jdbcAndProperties" />
       <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\resources\META-INF\maven" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\resources\META-INF" />
       <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\resources\META-INF\maven" />
       <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\resources" />
     </key>
@@ -109,7 +111,7 @@
       <updated>1685442519193</updated>
       <workItem from="1685442520278" duration="830000" />
       <workItem from="1685443412933" duration="10607000" />
-      <workItem from="1685515129419" duration="6386000" />
+      <workItem from="1685515129419" duration="24850000" />
     </task>
     <task id="LOCAL-00001" summary="Commit1&#10;Соединение через JDBC рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует.">
       <created>1685446065026</created>
@@ -174,11 +176,36 @@
       <option name="project" value="LOCAL" />
       <updated>1685525258060</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit2&#10;1. Соединение через JDBC без application.properties рабочее.&#10;2. Соединение через JDBC с application.properties рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;3. Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует.">
+      <created>1685528759795</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685528759795</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commit2&#10;1. Соединение через JDBC без application.properties рабочее.&#10;2. Соединение через JDBC с application.properties рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;3. Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует.">
+      <created>1685528776320</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685528776320</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit1&#10;Соединение через JDBC рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует." />
