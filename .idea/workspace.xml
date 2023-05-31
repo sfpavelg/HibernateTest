@@ -10,8 +10,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -19,6 +29,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QVd81RqXXBplzPytNNRNpV9hmY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,10 +43,62 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Papa/IdeaProjects/HibernateTest/src/main/java/HibernateToPostgres/jdbcAndProperties",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\java\HibernateToPostgres\jdbcAndProperties" />
+      <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\resources\META-INF\maven" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\resources" />
+      <recent name="C:\Users\Papa\IdeaProjects\HibernateTest\src\main\resources\META-INF\maven" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="HibernateToPostgres" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainConnectToDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HibernateToPostgres.MainConnectToDB" />
+      <module name="HibernateTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HibernateToPostgres.jdbcAndProperties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainConnectToDB" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +107,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685442519193</updated>
+      <workItem from="1685442520278" duration="830000" />
+      <workItem from="1685443412933" duration="10607000" />
+      <workItem from="1685515129419" duration="5336000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit1&#10;Соединение через JDBC рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует.">
+      <created>1685446065026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685446065026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit1&#10;Соединение через JDBC рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует.">
+      <created>1685455134154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685455134154</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit1&#10;Соединение через JDBC рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует.">
+      <created>1685515271303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685515271303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit1&#10;Соединение через JDBC рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit1&#10;Соединение через JDBC рабочее.&#10;Драйвер postgres добавлен через Maven.&#10;Соединение через JPA работать не хочет.&#10;Не видит META-INF/persistence.xml.&#10;Соединение через Hibernate пока отсутствует." />
   </component>
 </project>

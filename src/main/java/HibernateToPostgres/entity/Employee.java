@@ -1,4 +1,4 @@
-package HibernateToPostgres;
+package HibernateToPostgres.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
