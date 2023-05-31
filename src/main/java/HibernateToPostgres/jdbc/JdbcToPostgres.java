@@ -1,4 +1,4 @@
-package HibernateToPostgres;
+package HibernateToPostgres.jdbc;
 /**
  * Для добавления драйвера в IntelliJ IDEA, без системы контроля версий Maven, нужно выполнить следующие шаги:
  * 1. Скачать драйвер Postgres с сайта https://jdbc.postgresql.org/ вы должны увидеть файл с названием postgresql-[версия].jar, где [версия] - это версия драйвера.

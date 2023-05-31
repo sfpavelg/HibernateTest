@@ -1,4 +1,8 @@
 package HibernateToPostgres;
+
+import HibernateToPostgres.jdbcAndProperties.JdbcToPostgresAndProperties;
+import HibernateToPostgres.jpa.JpaToPostgres;
+
 /**
  * Для использования JPA и Hibernate в проекте вам потребуются следующие зависимости:
  *
@@ -35,7 +39,8 @@ public class MainConnectToDB {
     public static void main(String[] args) {
 
 //        new JdbcToPostgres();
-        new JpaToPostgres();
+        new JdbcToPostgresAndProperties();
+//        new JpaToPostgres();
 
     }
 }

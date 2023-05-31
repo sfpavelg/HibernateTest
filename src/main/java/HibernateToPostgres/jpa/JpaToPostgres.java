@@ -1,4 +1,6 @@
-package HibernateToPostgres;
+package HibernateToPostgres.jpa;
+
+import HibernateToPostgres.entity.Employee;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
