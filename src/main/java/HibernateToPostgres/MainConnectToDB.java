@@ -1,5 +1,6 @@
 package HibernateToPostgres;
 
+import HibernateToPostgres.hibernate.EmployeeService;
 import HibernateToPostgres.jdbcAndProperties.JdbcToPostgresAndProperties;
 import HibernateToPostgres.jpa.JpaToPostgres;
 
@@ -40,7 +41,8 @@ public class MainConnectToDB {
 
 //        new JdbcToPostgres();
 //        new JdbcToPostgresAndProperties();
-        new JpaToPostgres();
+//        new JpaToPostgres();
+        new EmployeeService();
 
     }
 }

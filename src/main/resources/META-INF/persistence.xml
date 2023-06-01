@@ -6,8 +6,8 @@
              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
 <persistence-unit name="postgresql" transaction-type="RESOURCE_LOCAL">
         <description>Postgresql Persistence Unit</description>
-    <!--<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> -->
-    <!-- <provider>javax.persistence.spi.PersistenceProvider</provider> -->
+    <!--<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> через этот провайдер подключиться не удалось-->
+    <!-- <provider>javax.persistence.spi.PersistenceProvider</provider> через этот провайдер подключиться не удалось-->
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <class>HibernateToPostgres.entity.Employees</class>
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
